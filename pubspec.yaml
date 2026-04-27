@@ -1,0 +1,43 @@
+name: final_yr_project
+description: "A SafeCircle Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+
+  cupertino_icons: ^1.0.8
+
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.1
+
+  geolocator: ^10.1.1
+  geocoding: ^4.0.0
+
+  firebase_core: ^4.6.0
+  firebase_auth: ^6.3.0
+  cloud_firestore: ^6.2.0
+
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1 
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+flutter_launcher_icons:           
+  android: true
+  ios: false
+  image_path: "assets/images/logo1.png"
